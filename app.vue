@@ -1,5 +1,12 @@
+<script setup lang="ts">
+// reset inherited styles
+import '@unocss/reset/tailwind.css';
+</script>
+
 <template>
   <div>
-    <NuxtWelcome />
+    <NuxtLayout>
+      <RouterView />
+    </NuxtLayout>
   </div>
 </template>

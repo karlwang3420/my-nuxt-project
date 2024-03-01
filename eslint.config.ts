@@ -1,7 +1,7 @@
 // eslint.config.js
-import unocss from "@unocss/eslint-config/flat";
+import unocss from '@unocss/eslint-config/flat';
 
 export default [
-	unocss,
-	// other configs
+  unocss,
+  // other configs
 ];
